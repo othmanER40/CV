@@ -150,3 +150,22 @@ body {
     color: grey;
     margin-bottom: 32px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+a img {
+    width: 2rem;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 10px 0;
+}
