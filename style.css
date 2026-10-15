@@ -169,3 +169,48 @@ footer p {
     text-align: center;
     padding: 10px 0;
 }
+
+@media only screen and (max-width:1200px) {
+    .hero-content {
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .hero-content h1 {
+        padding: 0 0.5%;
+        font-size: 40px;
+    }
+    .two-column-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .two-column-section p {
+        width: 100%;
+    }
+    .two-column-section .skills li {
+        width: 100%;
+    }
+    .blog-section,
+    .event-section {
+        display: inline;
+        width: 100%;
+        padding: 0;
+    }
+    .blog-content,
+    .event-content {
+        width: 100%;
+        padding: 0 5%;
+    }
+    .blog-post p {
+        width: 150%;
+        padding: 10px;
+    }
+    .events p {
+        width: 150%;
+        padding: 10px;
+    }
+    .links {
+        display: none;
+    }
+}
